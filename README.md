@@ -5,3 +5,6 @@ Conteúdo Web
 HTML Tags
 JavaScript
 
+Control shift p -> git tag
+
+
