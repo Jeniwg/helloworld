@@ -6,7 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+       /* @media (max-width: 600px) {
+            body {
+                background-color: black;
+            }
+
+        }*/
+
+        @keyframes myFirstAnimation {
+            from{background-color: cadetblue; transform: translate(0px,0px);}
+            to{background-color: crimson; transform: translate(100px,0px)}
+
+        }
+
+        div{
+            width: 200px;
+            height: 220px;
+            background-color: cadetblue;
+            animation-name: myFirstAnimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+            border: 6px solid cyan;
+            border-radius: 100px;
+            background-color: darkgreen;
+            opacity: 0.4;
+
+            margin-top: 20px;
+            margin-left: 50px;
+            padding-top: 50px;
+
+            outline: red dotted 10px;
+
+        }
+
+        h2 {
+            background-color: red;
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .tittle {
+            color: crimson;
+        }
+
+        /*body {
+            background-image: url("img/bacground.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }*/
+
+        .mainText {
+            color: steelblue;
+            /*text-align: justify;*/
+            text-decoration: underline;
+            text-transform: capitalize;
+            text-indent: 50px;
+            letter-spacing: 2px;
+            line-height: 30px;
+            word-spacing: 5px;
+            text-shadow: 2px 2px 10px red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*.box {
+            margin-left: 50%;
+            transform:rotate(45deg);
+            border: 2px solid black;
+            width: 200px;
+            height: 220px;
+        }
+
+        .image {
+            position: absolute;
+            width: 100%;
+            height: auto;
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 80%;
+        }*/
+    </style>
 
     <title>CSS Hello</title>
 
@@ -14,8 +104,35 @@
 
 <body>
     <h1>This is my first CSS webpage.</h1>
+    <h2> </h2>
     <p id="title">My Second Paragraph</p>
     <p class="nice">Todo pipi.</p>
+    <p class="mainText">
+        Text messages are used for personal, family, business and social purposes. Governmental and non-governmental
+        organizations use text messaging forcommunication between colleagues. <br> In the 2010s, the sending of short
+        informal messages became an accepted part of many cultures, as happened earlierwith emailing.[1] This makes
+        texting a quick and easy way to communicate with friends, family and colleagues, including in contexts where a
+        call would be impolite or inappropriate (e.g., calling very late at night or when one knows the other person is
+        busy with family or work activities). <br> Like e-mail and voicemail and unlike calls (in which the caller hopes
+        to speak directly with the recipient), texting does not require the caller and recipient to both be free at the
+        same moment; this permits communication even between busy individuals. Text messages can also be used to
+        interact with automated systems, for example, to order products or services from e-commerce websites, or to
+        participate in online contests. <br> Advertisers and service providers use direct text marketing to send
+        messages to mobile users about promotions, payment due dates, and other notifications instead of using postal
+        mail, email, or voicemail.
+    </p>
+    <br>
+
+    <div></div>
+    <!-- <div class="box">
+
+        <img class="image" src="img/bacground.jpg">
+
+        <p class="text"> This is a image.</p>
+
+    </div>-->
+
+    </div>
 </body>
 
 </html>
